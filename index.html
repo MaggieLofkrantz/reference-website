@@ -5,19 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design 1 Reference Site</title>
-    <h1>Maggie Lofkrantz Web Design List</h1> 
+    <h1>Maggie Lofkrantz Reference Website</h1> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" 
+        crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,200;1,600&display=swap" rel="stylesheet">
+</head>   
 <nav>
     <ul>
-        <li><a href="#week 1 vocab">Week 1 Vocab</a></li>
-        <li><a href="#week 2 vocab">Week 2 Vocab</a></li>
-        <li><a href="#week 3 vocab">Week 3 Vocab</a></li>
+        <li><a href="#intro to html">Intro to HTML</a></li>
+        <li><a href="#intro to html 2">Intro to HTML 2</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#font properties">Font Properties</a></li> 
+        <li><a href="#more css"> More CSS</a></li>
+        
+
     </ul>
 </nav>
-</head>
 <body>
-    <section id="week 1 vocab"></section>
-    <h2> Week 1 Vocab</h2>
-        <p> <b>headings:</b>h1-h6 (different sizes, big to small for headings)</p>
+    <section id="intro-to-html"></section>
+    <div class="intro-to-html"></div>
+    <h2> Intro to HTML</h2>
+        <p> <b>headings:</b> h1-h6 (different sizes, big to small for headings)</p>
         <p> <b>p:</b> paragraph seperation</p>   
         <p> <b>lists:</b> <ul>ul: dotted point form list </ul> <ul>ol: list is numerical order</ul> <ul>dl: list that does not need to be in order</ul></p>
         <p><b>img:</b> image</p>
@@ -30,9 +40,9 @@
         <p> <b>b:</b> bolded</p>
         <p> <b>i:</b> a part of text in an different mood, italics</p>
     
-        <h2> Week 2 Vocab</h2>
-    <section id="week 2 vocab"></section>
-        <p><b>div:</b> block element used to group other elemnts together</p>
+        <h2> Intro to HTML 2</h2>
+    <section id="intro to html 2"></section>
+        <p><b>div:</b> block element used to group other elements together</p>
         <p><b>span:</b> dividing tag used to mark up a part of a text or part of a document.</p>
         <p><b>a:</b> provides additional information about HTML elements such as an external link with more info(a href=""</p>
         <p><b>p class:</b> use it to class multiple times throughout your html and attach it to different types of elements</p>
@@ -44,10 +54,64 @@
         <p><b>nav:</b> section of the page whose purpose is to provide navigation links. (not used much)</p>
         <p><b>aside:</b> an aside element that's content is only indirectly related to the main content. Often seen as a side bar on a website.</p>
 
-        <h2>Week 3 Vocab</h2>
-<section id="week 3 vocab"></section>
-  <p>Accessibility HTML</p>
+        <h2>Accessibility</h2>
+<section id="accessibility"></section>
+  <h3>Landmark Roles</h3>
     <p><b>header role="banner":</b> defining an element as the masthead, added to the primary header</p>      
  <p><b>nav role="navigation":</b> defining an element as the primary naviagtion, added to the top (nav)</p>
+ <p><b>main role="main":</b> defining an element as being the main content of the page, its added to (main) </p>
+ <p><b>aside role="complimentary":</b> defining an element that relates to the main content, usually added to an (aside)</p>
+ <p><b>footer role="content info"</b>defining an element as information about the content such as copyright and privacy policy, added to (footer)</p>
+ <p><b>aria label:</b> a label that will only be announced to people with screen readers, used before a read more link with a description</p>
+
+ <p><b>skip links:</b> placed at the top of the page and offer ways to jump to specific tagged areas of the page</p>
+
+        <h2> Font Properties</h2>
+        <h3> CSS</h3>
+    <section id="font properties"></section>
+    <p><b>font-family:</b> The font used throught the website that can be in bold, regular or italics. ex. arial, courier, etc.</p>
+    <p><b>font-size:</b> Controls the specific font size for the text </p>
+    <p><b>font-weight:</b> Controls the weight of a font. ex. bold, extra bold, thin</p>
+    <p><b>font-style</b> Specifies the font style for the text. ex. normal, italic, bold.</p>
+    <p><b>line-height:</b> Specifies the height of a line of text. (how tall the text looks)</p>
+    <p><b>font-shorthand:</b> Used to shorten the code and specify all individual font properties in one property. <i>shorthand property for:</i>
+        <ul> font - style</ul> 
+        <ul> font - weight</ul>
+        <ul> font - line-height</ul>
+        <ul>font - size</ul>
+        <ul>font - family</ul>
+    </p>
+
+    <h2>Text Decorations</h2>
+    <h3>CSS</h3>
+<p><b>text-transform:</b> Specifies what to do with the text element <i>such as:</i></p>
+<ul>capitalize</ul>
+<ul>uppercase</ul>
+<ul>lowercase</ul>
+<ul>none</ul>
+
+<p><b>text-decoration:</b> Specifies the decoration used on the text <i> such as:</i></p>
+<ul>line</ul>
+<ul>color</ul>
+<ul>style</ul>
+<ul>thickness</ul>
+<p><b>text-align:</b> Specifies the horizontal alignment of text in an element<i> such as:</i></p>
+<ul>center</ul>
+<ul>left</ul>
+<ul>right</ul>
+<ul>justify</ul>
+<p><b>text-indent:</b> Specifies the indentation of the first line of text in a text block</p>
+<p><b>text-shadow:</b> Adds shadow to text (add spacing and color) </p>
+
+<section id="more css"></section>
+<h2> more css</h2>
+<h3>different states for links</h3>
+<p><b>a: link:</b> a normal unvisted link</p>
+<p><b>a: visited:</b> a link the user has visited</p>
+<p><b>a: hover:</b> a link when the user moves their mouse over it</p>
+<p><b>a: active:</b> a link the moment it is clicked</p>
+<h3>more</h3>
+<p><b>margins:</b> Measured properties that are used to create space <i>around</i> elements with defined borders</p>
+<p><b>padding:</b> Used to create space around an element's content <i>inside</i> of any defined borders</p>
 </body>
 </html>

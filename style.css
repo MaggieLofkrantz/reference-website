@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+::before,::after {
+  box-sizing: inherit;  
+}
+body {
+  font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color:rgb(255, 254, 244);
+    line-height: 1.5;
+    font-size:1.125rem ;
+    margin-left: 30px;
+}
+.title {
+  margin-left: 10px;
+  text-shadow: 0px 1.5px 1.5px beige;
+}
+h1 {
+font-size: 2.5rem;
+color:rgb(111, 98, 78);
+}
+h2{
+  font-size: 2rem;
+  color:rgb(151, 128, 109);
+  text-transform:uppercase;
+}
+h3{
+  text-transform: uppercase;
+  color:rgb(194, 162, 118); 
+}
+a:hover {
+  text-decoration:double;
+  color: rgb(194, 162, 118);
+  text-shadow: 0px 1.5px 1.5px burlywood;
+  background-color: white; 
+  border: 1.5px 1.5px 1.5px 1.5px burlywood;
+}
+.intro-to-html {
+border: 1.5px 1.5px 1.5px 1.5px;
+}
+div{
+  width: 5px;
+  border: 2px burlywood;
+  padding: 1px;
+  margin: auto;
+}
